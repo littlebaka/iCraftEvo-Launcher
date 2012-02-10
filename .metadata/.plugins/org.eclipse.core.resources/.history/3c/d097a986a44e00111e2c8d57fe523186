@@ -1,0 +1,45 @@
+launcher:
+    windowTitle: 'iCraftEvo Launcher'                                                         # Titre de la fenetre du launcher
+    browserHomeURL: 'http://icraftevo.tumblr.com/'                                             # URL de la page affichee en accueil du launcher
+    loginURLHTTP: 'https://login.minecraft.net/'                                              # URL de login HTTP
+    loginURLHTTPS: 'https://login.minecraft.net/'                                             # URL de login HTTPS
+    httpsMode: true                                                                           # Utiliser HTTPS?
+    loginParameters: 'user={USERNAME}&password={PASSWORD}&version=13'                         # Ne pas toucher, ce sont les parametres mis dans la requete de login
+    offlineMode: false                                                                        # Mode Hors-Ligne
+    langs:                                                                                    # Fichiers de langues, en ajouter si vous avez les fichiers
+        - 'en_US'
+        - 'fr_FR'
+    debugMode: false                                                                           # Mode debug. Ne sert a rien.
+    autoConnectServer:
+        connect: false                                                                        # Se connecter automatiquement a un serveur ou non.
+        address: 'icraftevo.fr'                                                                           # Adresse du serveur a laquelle le launcher doit se connecter
+        port: ''                                                                              # Port du serveur sur lequel le launcher doit se connecter
+updater:
+    askUpdateIfAvailable: true                                                                # Demander quand une MaJ est disponible
+    updateIfNewVersionAvailable: false                                                         # Mettre a jour lorsque une MaJ est disponible
+    customGameDir: false                                                                      # Utiliser un dossier perso
+    gameDir: ''                                                                               # Chemin vers le dossier perso
+    folderName: 'minecraft.icraft'                                                                   # Nom du dossier contenant Minecraft
+    keyFileName: 'minecraft.icraft.key'                                                              # Nom du fichier contenant la cle pour la connexion en HTTPS
+    loginFileEncryptionKey: 'passwordfile'                                                    # Nom du fichier contenant les informations de derniere connexion (Lorsque 'Se souvenir de moi' est coche)
+    jarList:                                                                                  # Liste des fichiers .jar a charger
+        - 'http://icraftevo.fr/Launcher/lwjgl.jar'
+        - 'http://icraftevo.fr/Launcher/jinput.jar'
+        - 'http://icraftevo.fr/Launcher/lwjgl_util.jar'
+        - 'http://icraftevo.fr/Launcher/minecraft.jar'
+    additionalsFiles:                                                                         # Liste des fichiers .zip/.jar additionnels a decompiler dans le dossier de Minecraft
+        - null
+    nativesList:                                                                              # Liste des fichiers necessaires pour LWJGL (OpenGL), ne pas toucher sauf si vous les hebergez vous meme
+        windows: 'http://s3.amazonaws.com/MinecraftDownload/windows_natives.jar.lzma'
+        linux: 'http://s3.amazonaws.com/MinecraftDownload/linux_natives.jar.lzma'
+        macos: 'http://s3.amazonaws.com/MinecraftDownload/macosx_natives.jar.lzma'
+        solaris: 'http://s3.amazonaws.com/MinecraftDownload/solaris_natives.jar.lzma'
+    customVersion:
+        use: true                                                                            # Utiliser un fichier de version supplementaire (true,yes pour oui. false, no pour Non
+        fileName: 'version'                                                                  # Nom du fichier de version supplementaire
+        checkUrl: 'http://icraftevo.fr/Launcher/version.txt'                                                                          # URL vers le fichier de version heberge
+        updateIfAvailable: true                                                               # Mettre a jour si une MaJ est disponible
+gameLauncher:
+    gameName: 'Minecraft'                                                                     # Titre de la fenetre du jeu
+    documentBaseURL: 'http://www.minecraft.net/game/'                                         # Je sais pas trop a quoi ca sert x) Mais je prefere le mettre ici, au cas ou ca vous amuse de le modifier :D
+    gameHost: 'www.minecraft.net'                                                             # Idem.

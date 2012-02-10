@@ -1,0 +1,7 @@
+#Wed Dec 21 14:21:56 CET 2011
+eclipse.preferences.version=1
+org.eclipse.debug.ui.PREF_FILTER_WORKING_SETS=true
+org.eclipse.debug.ui.PREF_FILTER_LAUNCH_TYPES=true
+org.eclipse.debug.ui.PREF_FILTER_TYPE_LIST=org.eclipse.jdt.launching.localJavaApplication,
+preferredTargets=default\:default|
+org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<launchPerspectives/>\r\n

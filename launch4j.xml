@@ -1,0 +1,22 @@
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\Guillaume\Documents\Workspace\Projects\MCLauncher Classic\target\minecraft.jar</jar>
+  <outfile>C:\Users\Guillaume\Documents\Workspace\Projects\MCLauncher Classic\target\minecraft.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir></chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <customProcName>false</customProcName>
+  <stayAlive>false</stayAlive>
+  <manifest></manifest>
+  <icon>C:\Users\Guillaume\Documents\Workspace\Projects\MCLauncher Classic\favicon.ico</icon>
+  <jre>
+    <path></path>
+    <minVersion>1.4.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+  </jre>
+</launch4jConfig>
